@@ -5,6 +5,6 @@ resource "null_resource" "test" {
   }
   
   provisioner "local-exec" {
-    command = "echo Folder 1!"
+    command = "echo This is folder 1!"
   }
 }
